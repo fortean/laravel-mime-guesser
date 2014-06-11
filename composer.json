@@ -1,0 +1,28 @@
+{
+    "name": "fortean/laravel-mime-guesser",
+    "type": "library",
+    "description": "Laravel 4 Service Provider for Symfony MimeTypeGuesser",
+    "keywords": ["laravel", "symfony", "mime"],
+    "homepage": "https://github.com/fortean/laravel-mime-guesser",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bruce Walter",
+            "email": "walter@fortean.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "illuminate/support": "4.1.*"
+    },    
+    "require-all": true,
+    "autoload": {    
+        "psr-0": {
+            "Fortean\\MimeType\\": "src/"
+        }
+    },    
+    "minimum-stability": "dev"
+}
